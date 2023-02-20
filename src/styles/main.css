@@ -10805,7 +10805,7 @@ nav a {
 
 header {
   height: 20rem;
-  background-image: url("../../images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
   text-align: center;
 }
