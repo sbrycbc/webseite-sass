@@ -1,0 +1,68 @@
+nav {
+  a {
+    color: $primary-color;
+  }
+}
+
+header {
+  height: $huge;
+  background-image: url('../../images/header.jpg');
+  background-size: cover;
+  text-align: center;
+
+  h1{
+    font-size:3rem;
+    width:60%;
+    margin:auto;
+    font-weight: 900;
+  }
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #e0ddb2;
+  width:80%;
+
+
+  .img {
+    background-size: cover;
+    height: $large;
+    width: 100%;
+    background-position:center;
+  }
+}
+
+main {
+  aside {
+    border: $border-size solid $secondary-color;
+  }
+}
+
+footer {
+  background-color: $primary-color;
+  ul {
+    list-style: none;
+    a {
+      color: white;
+    }
+  }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .card {
+    img {
+      width:13rem;
+      height:12rem;
+    }
+  }
+}
+
+@media screen and (min-width:1025px) {
+  .card {
+    width:40vw;
+    img {
+      height:13rem;
+    }
+  }
+}
